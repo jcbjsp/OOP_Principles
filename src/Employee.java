@@ -4,4 +4,8 @@ public class Employee extends Person{
         super(fName, lName);
         department = dept;
     }
+    public void print(){
+        System.out.println("Department: "+department+", ");
+        super.print();
+    }
 }
